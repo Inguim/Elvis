@@ -29,19 +29,28 @@
             </div>
         </div>
 
-        <!-- <div class="form-group row">
-                    <div class="col-md-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+        <div class="form-group row">
+            <div class="col-md-12">
+                <div class="form-check  d-flex">
+                    <div class="mr-auto">
+                        <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
-                            <label class="form-check-label" for="remember">
-                                {{ __('Relembrar acesso') }}
-                            </label>
-                        </div>
+                        <label class="form-check-label" for="remember">
+                            {{ __('Relembrar acesso') }}
+                        </label>
                     </div>
-                </div> -->
+                    <div class="mrl-auto">
+                        @if (Route::has('password.request'))
+                        <a id="link-senha" href="{{ route('password.request') }}">
+                            {{ __('Esqueceu sua senha?') }}
+                        </a>
+                        @endif
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="form-group row mb-0 align-items-center">
+        <div class="form-group row mb-0 align-items-center" id="fot-login">
             <div class="col-md-12">
                 <button type="submit" id="button">
                     {{ __('Login') }}
@@ -49,13 +58,7 @@
                 <a href="{{ route('register') }}">Não possui cadastro? <span>Cadastre-se</span></a>
             </div>
         </div>
-        <!-- @if (Route::has('password.request'))
-        <div class="form-group row mb-0 col-md-12">
-            <a href="{{ route('password.request') }}">
-                {{ __('Esqueceu sua senha?') }}
-            </a>
-        </div>
-        @endif -->
+
     </form>
 </div>
 @endsection

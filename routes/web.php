@@ -18,11 +18,16 @@ Route::get('/', function () {
 });
 
 Route::get('/playlistesp', function() {
-    return view('playlistespecifica');
+    return view('playlist.playlistespecifica');
+})->middleware('auth');
+
+Route::get('/playlists', function() {
+    return view('playlist.playlists');
 })->middleware('auth');
 
 Route::get('/criarplaylist', function() {
-    return view('criarplaylist');
+    return view('playlist.criarplaylist');
+
 })->middleware('auth');
 
 Route::get('/config', function() {
