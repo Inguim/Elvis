@@ -2,14 +2,14 @@
 #left-side {
     background-size: 90%;
     background-repeat: no-repeat;
-    background-color: #433C3C;
+    background-color: #433c3c;
     background-position: center;
     width: 50vw;
     height: 100vh;
 }
 
 #left-side img {
-   max-width: 100%;
+    max-width: 100%;
 }
 
 #right-side {
@@ -32,12 +32,21 @@
     margin-bottom: 20px;
 }
 
-#right-side form a {
-    font-size: 18px;
-    font-weight: 600;
+#right-side form a,
+label {
     text-decoration: none;
     color: black;
     transition: opacity 0.2s;
+}
+
+#fot-login div a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#right-side form #link-senha {
+    font-weight: 300;
+    color: #3490dc;
 }
 
 #right-side form button {
@@ -45,7 +54,7 @@
     margin-right: 5px;
 }
 
-#right-side form a span{
+#right-side form a span {
     color: #3490dc;
 }
 
@@ -55,10 +64,9 @@
 }
 
 #button {
-    width: 127px;
     height: 45px;
     border: 0;
-    background: #59C15D;
+    background: #59c15d;
     color: #fff;
     border-radius: 8px;
     font-weight: bold;
@@ -66,18 +74,28 @@
     transition: filter 0.2s;
 }
 
-#button:hover{
+#button-new {
+    height: 45px;
+    background: #00bb85;
+    border: 2px solid #03835e;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    transition: filter 0.2s;
+}
+
+#button:hover {
     filter: brightness(90%);
 }
 
 .input {
     padding: 0px 10px;
-    background: #FAFAFA;
+    background: #fafafa;
     border: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
 }
-
 
 .input::placeholder {
     color: lightgray;
@@ -94,12 +112,12 @@
 
 /* Sessao.blade */
 #navbar-central {
-    background: #433C3C;
+    background: #433c3c;
     z-index: 1;
 }
 
 #navbar-central i {
-    color: #E5E5E5;
+    color: #e5e5e5;
     margin-left: 20px;
     font-size: 25px;
     cursor: pointer;
@@ -124,7 +142,7 @@
 }
 
 #navbar-sub {
-    background: #4A3E3E;
+    background: #4a3e3e;
     padding: 8px 100px;
     display: block;
 }
@@ -148,9 +166,10 @@
     box-sizing: content-box;
 }
 
-#navbar-sub a i, strong {
-    color: #FFFFFF;
-    text-shadow: 0px 0px 5px #FFFFFF;
+#navbar-sub a i,
+strong {
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #ffffff;
     cursor: pointer;
 }
 
@@ -158,6 +177,69 @@
     filter: brightness(80%);
     cursor: pointer;
 }
+
+/* Email.blade, Confirm.blade, Reset.blade */
+
+#email-container label,
+#confirm-container label,
+#reset-container label,
+#reset-container a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Playlists.blade */
+
+/* #button-card {
+    width: 150px;
+    border: none;
+    margin: 2% 5%;
+    padding: 0;
+} */
+
+#item-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    transition: filter 0.2s;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+#item-card i {
+    font-size: 50px;
+    color: white;
+    opacity: 0;
+    transition : all ease 0.2s;
+}
+
+
+#button-img-card {
+    width: 150px;
+    height: 150px;
+    transition: filter 0.2s;
+}
+
+#item-card:hover{
+    filter: brightness(90%);
+}
+
+#item-card:hover i{
+    opacity: 1;
+}
+
+#nome-playlist {
+    color: #a2a2a2;
+    padding: 0;
+    margin: 0;
+}
+
+#icon-playlist {
+    align-self: center;
+    z-index: 5;
+}
+
 /* playlistespecifica.blade.php */
 #busca-de-nome-input {
     background-color: transparent;
