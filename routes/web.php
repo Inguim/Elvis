@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/playlistesp', function() {
+    return view('playlistespecifica');
+})->middleware('auth');
+
+Route::get('/criarplaylist', function() {
+    return view('criarplaylist');
+})->middleware('auth');
+
+Route::get('/config', function() {
+    return view('configuracao');
+})->middleware('auth');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
