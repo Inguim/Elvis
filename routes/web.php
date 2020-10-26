@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/cifras', function() {
+    return view('cifras.cifras');
+})->middleware('auth');
+
 Route::get('/playlistesp', function() {
     return view('playlist.playlistespecifica');
 })->middleware('auth');

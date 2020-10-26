@@ -60,7 +60,7 @@
 
                     </li>
                     <li class="nav-item">
-                        <i class="fas fa-cog icon"></i>
+                        <a href="{{url('/config')}}"><i class="fas fa-cog icon"></i></a>
                     </li>
                     <li class="nav-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                         <i class="fas fa-sign-out-alt icon"></i>
@@ -75,15 +75,15 @@
         </nav>
         <div class="collapse show" id="navbar-collapse">
             <div class="navbar navbar-expand-md d-flex align-items-center justify-content-between flex-wrap" id="navbar-sub">
-                <a class="d-flex align-items-center">
+                <a class="d-flex align-items-center" href="{{url('/home')}}">
                     <i class="fas fa-user icon"></i>
                     <strong>Perfil</strong>
                 </a>
-                <a class="d-flex align-items-center">
+                <a class="d-flex align-items-center" href="{{url('/cifras')}}">
                     <i class="fas music-alt icon" style="width: 30px; margin-right: 0"><img src="nota.svg" style="width: inherit"></img></i>
                     <strong>Cifras</strong>
                 </a>
-                <a class="d-flex align-items-center">
+                <a class="d-flex align-items-center" href="{{url('/playlists')}}">
                     <i class="fas fa-music icon"></i>
                     <strong>Playlists</strong>
                 </a>

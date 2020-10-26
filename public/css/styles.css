@@ -197,6 +197,11 @@ strong {
     padding: 0;
 } */
 
+#btcriarplaylist {
+    text-decoration: none;
+    color: white;
+}
+
 #item-card {
     width: 150px;
     height: 150px;
@@ -547,4 +552,43 @@ strong {
 }
 #a-excluirconta{
     color: red;
+}
+
+/* cifras.blade.php */
+
+#btsubircifra, #enviar_cifra {
+    height: 45px;
+    background: #00bb85;
+    border: 2px solid #03835e;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    transition: filter 0.2s;
+}
+
+.modal-title {
+    color: #433c3c;
+    text-shadow: 0px 0px 5px #615e5e;
+    font-weight: bold;
+}
+
+#ops {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+#btaddplaylist, #modaladd_Play {
+    color:black;
+    text-decoration: none;
+}
+
+#excluircifra {
+    color: #d83737;
+}
+
+.dropdown-menu {
+    box-shadow: 0 0 5px black;
 }
