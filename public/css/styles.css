@@ -592,3 +592,51 @@ strong {
 .dropdown-menu {
     box-shadow: 0 0 5px black;
 }
+
+.sidenav {
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #816c6c; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.1s; 
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c0c0c0;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+#conteudoCifra {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#conteudoCifra object {
+    width: 100%;
+
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
