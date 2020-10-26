@@ -630,11 +630,14 @@ strong {
 #conteudoCifra {
     transition: margin-left .5s;
     padding: 20px;
+    align-items: center;
+
 }
 
 #conteudoCifra object {
     width: 100%;
-
+    height: 500px;
+    
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}

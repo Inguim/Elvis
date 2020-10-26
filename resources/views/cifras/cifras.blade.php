@@ -19,7 +19,7 @@
                     <div class="dropdown dropright">
                         <a href="#" id="ops" class="dropdown-toggle" data-toggle="dropdown" >. . .</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Auto Scroll</a>
+                            <a class="dropdown-item" href="{{url('/vercifra')}}">Auto Scroll</a>
                             <div class="dropdown-item">
                                 <a href="#" class="ml-auto" id="btaddplaylist" data-toggle="modal" data-target="#addplay">Add Playlist</a>
                             </div>

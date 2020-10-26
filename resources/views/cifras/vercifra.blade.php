@@ -5,18 +5,16 @@
     <div id="sideFila" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <h3 style="color: #f1f1f1; padding:8px">Fila de Reprodução</h3>
-        <a href="#">Marcha Soldado</a>
+        <a href="#">Wonderall - Oasis </a>
         <a href="#">Cifra 2</a>
         <a href="#">Cifra 3</a>
         <a href="#">Cifra 4</a>
     </div>
-
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">
-        <i class="fa fa-angle-double-right"></i>
-    </span>
-
+        <span style="font-size:30px;cursor:pointer" class="justify-left" onclick="openNav()">
+            <i class="fa fa-angle-double-right"></i>
+        </span>
     <div id="conteudoCifra">
-        <object data="pdfs/marchasoldado.html"></object>
+        <object data="wonderwall.pdf"></object>
     </div>
 
     <!--Passar pra um arq.js-->

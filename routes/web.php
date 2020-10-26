@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/vercifra', function() {
+    return view('cifras.vercifra');
+})->middleware('auth');
+
 Route::get('/cifras', function() {
     return view('cifras.cifras');
 })->middleware('auth');
