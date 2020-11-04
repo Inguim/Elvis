@@ -11,11 +11,11 @@
             <tbody>
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
                     <td  style="font-size: medium;">Oasis - Wonderwall</td>
-                    <td>
+                        <a href="{{url('/vercifra')}}">
+                    <td style="align-items:initial; text-align:left;"></td>
                 </tr>
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
-                    <td  style="font-size: medium;">Nirvana - Smells like teen spirit</td>
-
+                    <td  style="font-size: medium;">Nirvana - Smells like teen spirit</td>  
                     <td style="align-items:initial; text-align:left;"></td>
                 </tr>
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
