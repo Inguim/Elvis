@@ -9,10 +9,12 @@
     <div id="listarcifras">
         <table class="table table-borderless  table-hover" id="listar_cifras">
             <tbody>
-                <tr class="tr" style="border-bottom: 2px solid #626262;">
-                    <td  style="font-size: medium;" href="{{url('/vercifra')}}">Oasis - Wonderwall </td>
-                    <td  style="align-items:initial; text-align:left;"></td>
-                </tr>
+                <a href="{{url('/vercifra')}}">
+                    <tr class="tr" style="border-bottom: 2px solid #626262;">
+                        <td  style="font-size: medium;" >Oasis - Wonderwall </td>
+                        <td  style="align-items:initial; text-align:left;"></td>
+                    </tr>
+                </a>
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
                     <td  style="font-size: medium;">Nirvana - Smells like teen spirit</td>  
                     <td style="align-items:initial; text-align:left;"></td>
