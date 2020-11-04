@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/perfil', function () {
+    return view('perfil');
+})->middleware('auth');
+
 Route::get('/vercifra', function() {
     return view('cifras.vercifra');
 })->middleware('auth');
@@ -35,7 +39,6 @@ Route::get('/playlists', function() {
 
 Route::get('/criarplaylist', function() {
     return view('playlist.criarplaylist');
-
 })->middleware('auth');
 
 Route::get('/config', function() {
