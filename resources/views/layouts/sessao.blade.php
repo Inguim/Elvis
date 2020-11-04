@@ -75,7 +75,7 @@
         </nav>
         <div class="collapse show" id="navbar-collapse">
             <div class="navbar navbar-expand-md d-flex align-items-center justify-content-between flex-wrap" id="navbar-sub">
-                <a class="d-flex align-items-center" href="{{url('/home')}}">
+                <a class="d-flex align-items-center" href="{{url('/perfil')}}">
                     <i class="fas fa-user icon"></i>
                     <strong>Perfil</strong>
                 </a>
