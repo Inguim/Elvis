@@ -12,18 +12,6 @@
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
                     <td  style="font-size: medium;">Oasis - Wonderwall</td>
                     <td>
-                    <div class="dropdown dropright">
-                        <a href="#" id="ops" class="dropdown-toggle" data-toggle="dropdown" >. . .</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="{{url('/vercifra')}}">Auto Scroll</a>
-                            <div class="dropdown-item">
-                                <a href="#" class="ml-auto" id="btaddplaylist" data-toggle="modal" data-target="#addplay">Add Playlist</a>
-                            </div>
-                            <a class="dropdown-item" href="#">Renomear</a>
-                            <a id="excluircifra" class="dropdown-item" href="#">Excluir</a>
-                        </div>
-                    </div>
-                    </td>
                 </tr>
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
                     <td  style="font-size: medium;">Nirvana - Smells like teen spirit</td>
@@ -38,6 +26,46 @@
             </tbody>
         </table>
     </div>
+    <div class="row">
+        <h1 class="mr-auto">Últimas Playlists Acessadas</h1>
+    </div>
+    <div class="d-flex row flex-wrap mt-2" id="playlists-cards">
+        <div>
+            <div class="d-flex flex-column align-items-center justify-content-center" id="item-card" style="background-image: url(capa.jpg)">
+                <a href="{{url('/playlistesp')}}"><i class="fas fa-play-circle"></i> </a>
+            </div>
+            <p class="text-center" id="nome-playlist">Nome Playlist</p>
+        </div>
+        <div>
+            <div class="d-flex flex-column align-items-center justify-content-center" id="item-card" style="background-image: url(capa.jpg)">
+                <a href="{{url('/playlistesp')}}"><i class="fas fa-play-circle"></i> </a>
+            </div>
+            <p class="text-center" id="nome-playlist">Nome Playlist</p>
+        </div>
+        <div>
+            <div class="d-flex flex-column align-items-center justify-content-center" id="item-card" style="background-image: url(capa.jpg)">
+                <a href="{{url('/playlistesp')}}"><i class="fas fa-play-circle"></i> </a>
+            </div>
+            <p class="text-center" id="nome-playlist">Nome Playlist</p>
+        </div>
+        <div>
+            <div class="d-flex flex-column align-items-center justify-content-center" id="item-card" style="background-image: url(capa.jpg)">
+                <a href="{{url('/playlistesp')}}"><i class="fas fa-play-circle"></i> </a>
+            </div>
+            <p class="text-center" id="nome-playlist">Nome Playlist</p>
+        </div>
+        <div>
+            <div class="d-flex flex-column align-items-center justify-content-center" id="item-card" style="background-image: url(capa.jpg)">
+                <a href="{{url('/playlistesp')}}"><i class="fas fa-play-circle"></i> </a>
+            </div>
+            <p class="text-center" id="nome-playlist">Nome Playlist</p>
+        </div>
+        <div>
+            <div class="d-flex flex-column align-items-center justify-content-center" id="item-card" style="background-image: url(capa.jpg)">
+                <a href="{{url('/playlistesp')}}"><i class="fas fa-play-circle"></i> </a>
+            </div>
+            <p class="text-center" id="nome-playlist">Nome Playlist</p>
+        </div>
 </div>
 
 @endsection
