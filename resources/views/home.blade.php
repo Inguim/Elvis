@@ -16,6 +16,6 @@
         <img src="caixa.png" style="width: 150px; margin-top: 100px;">
 </div>
 <div class="main">
-            <h1 class="text-lg-center">Seja Bem-Vindo ao Elvis! <br> Seu armazendor Virtual de Cifras</h1>
+            <h1 class="text-lg-center">Seja Bem-Vindo ao Elvis! <br> Seu armazenador Virtual de Cifras</h1>
 </div>
 @endsection
