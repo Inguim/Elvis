@@ -4,7 +4,7 @@
 
 <style>
     .main h1 {
-        font-size: 200px;
+        font-size: 100px;
         text-align: center;
         color: #000000;
         margin-top: 50px;
