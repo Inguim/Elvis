@@ -4,13 +4,13 @@
 
 <style>
     .main h1 {
-        font-size: 100px;
+        font-size: 50px;
         text-align: center;
         color: #000000;
         margin-top: 50px;
     }
-    .div img{
-        margin-top: 100px;
+    .img {
+        margin-top: 150px;
     }
 </style>
 
