@@ -26,8 +26,8 @@
             </tbody>
         </table>
     </div>
-    <div class="row">
-        <h1 class="mr-auto" style="margin-top = 50px;">Últimas Playlists Acessadas</h1>
+    <div class="row" style="margin-top = 50px;">
+        <h1 class="mr-auto" >Últimas Playlists Acessadas</h1>
     </div>
     <div class="d-flex row flex-wrap mt-2" id="playlists-cards">
         <div>
