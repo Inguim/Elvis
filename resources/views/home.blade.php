@@ -9,13 +9,11 @@
         color: #000000;
         margin-top: 50px;
     }
-    .img {
-        margin-top: 150px;
-    }
+    
 </style>
 
-<div class="justify-content-center align-items-center">
-        <img src="caixa.png" style="width: 150px;">
+<div class="d-flex justify-content-center align-items-center">
+        <img src="caixa.png" style="width: 150px; margin-top: 150px;">
 </div>
 <div class="main">
             <h1 class="text-lg-center">Seja Bem-Vindo ao Elvis! <br> Seu armazendor Virtual de Cifras</h1>
