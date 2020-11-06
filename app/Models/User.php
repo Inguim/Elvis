@@ -41,4 +41,19 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function cifras()
+    {
+        return $this->hasMany('App\Models\Cifra');
+    }
+
+    public function playlists()
+    {
+        return $this->hasMany('App\Models\Playlist');
+    }
+
+    public function playlists_cifras()
+    {
+        return $this->hasMany('App\Models\PlaylistHasCifra');
+    }
 }

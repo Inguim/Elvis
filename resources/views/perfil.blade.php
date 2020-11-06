@@ -14,7 +14,7 @@
                     <td  style="align-items:initial; text-align:left;"></td>
                 </tr>
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
-                    <td  style="font-size: medium;">Nirvana - Smells like teen spirit</td>  
+                    <td  style="font-size: medium;">Nirvana - Smells like teen spirit</td>
                     <td style="align-items:initial; text-align:left;"></td>
                 </tr>
                 <tr class="tr" style="border-bottom: 2px solid #626262;">
@@ -25,7 +25,7 @@
             </tbody>
         </table>
     </div>
-    <div class="row" style="padding-top = 100px;">
+    <div class="row" style="padding-top: 100px;">
         <h1 class="mr-auto" >Últimas Playlists Acessadas</h1>
     </div>
     <div class="d-flex row flex-wrap mt-2" id="playlists-cards">
